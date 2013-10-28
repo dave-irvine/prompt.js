@@ -4,6 +4,7 @@
   "description": "Simple user input for node.js command lines",
   "main": "prompt.js",
   "dependencies": {
+    "charm": "~0.1.2"
     "colors": "~0.6.2"
   },
   "devDependencies": {},
