@@ -1,0 +1,19 @@
+{
+  "name": "prompt.js",
+  "version": "0.0.0",
+  "description": "Simple user input for node.js command lines",
+  "main": "prompt.js",
+  "dependencies": {
+    "colors": "~0.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "prompt",
+    "cli"
+  ],
+  "author": "Dave Irvine <dave@daveirvine.me>",
+  "license": "MIT"
+}
