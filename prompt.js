@@ -78,6 +78,17 @@ colors.setTheme({
 			});
 		}());
 	};
+	
+	Prompt.prototype.question = function (question, callback) {
+		charm.write(question + "\n");
+		prompt.once("line", function (input) {
+			if (prompt.sigint) {
+				return;
+			}
+
+			callback(null, input);
+		});
+	};
 })();
 
 module.exports = (function () {
